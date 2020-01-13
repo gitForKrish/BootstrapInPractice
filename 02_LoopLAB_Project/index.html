@@ -16,20 +16,22 @@
   <title>Boostrap Theme</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#main-nav" id="home">
   <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-    <a href="index.html" class="navbar-brand">LoopLAB</a>
-    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="#explore-head-section" class="nav-link">Explore</a></li>
-        <li class="nav-item"><a href="#create-head-section" class="nav-link">Create</a></li>
-        <li class="nav-item"><a href="#share-head-section" class="nav-link">Share</a></li>
-      </ul>
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top" id="main-nav">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">LoopLAB</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#explore-head-section" class="nav-link">Explore</a></li>
+          <li class="nav-item"><a href="#create-head-section" class="nav-link">Create</a></li>
+          <li class="nav-item"><a href="#share-head-section" class="nav-link">Share</a></li>
+        </ul>
+      </div>
     </div>
   </nav>
 
@@ -39,7 +41,7 @@
       <div class="home-inner container">
         <div class="row">
           <div class="col-lg-8 d-none d-lg-block">
-            <h3 class="display-4">Build <strong>social profiles</strong> and gain revenue <strong>profits</strong></h3>
+            <h1 class="display-4">Build <strong>social profiles</strong> and gain revenue <strong>profits</strong></h1>
             <div class="d-flex">
               <div class="p-4 align-self-start">
                 <i class="fas fa-check fa-2x"></i>
@@ -89,7 +91,190 @@
       </div>
     </div>
   </header>
-  <div style="min-height: 700px;"></div>
+
+  <!-- Explore Head Section -->
+  <section id="explore-head-section">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-5">
+          <h1 class="display-4">Explore</h1>
+          <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga praesentium minima unde
+            laudantium eligendi eos!</p>
+          <button class="btn btn-outline-secondary">Find Out More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Explore Section -->
+  <section id="explore-section" class="bg-light text-muted py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="./img/explore-section1.jpg" alt="explore image" class="img-fluid rounded-circle mb-3">
+        </div>
+        <div class="col-md-6">
+          <h3>Explore & Connect</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum pariatur quas accusantium aliquid corrupti
+            aspernatur ex non, ratione aperiam. Voluptas!</p>
+          <div class="d-flex">
+            <div class="align-self-start p-3">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="align-self-end p-3">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit autem alias, explicabo dolorem
+                praesentium molestias?</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="align-self-start p-3">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="align-self-end p-3">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit autem alias, explicabo dolorem
+                praesentium molestias?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Create Head Section -->
+  <section id="create-head-section" class="bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-5">
+          <h1 class="display-4">Create</h1>
+          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt cupiditate nihil nam dolore
+            consequuntur numquam possimus, esse asperiores atque omnis.</p>
+          <button class="btn btn-outline-light">Find Out More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Create Section -->
+  <section id="create-section" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 order-2">
+          <img src="./img/create-section1.jpg" alt="create section" class="img-fluid rounded-circle pb-3">
+        </div>
+        <div class="col-md-6 order-1">
+          <h3>Create Your Passion</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quaerat libero quisquam qui eligendi
+            hic.</p>
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eveniet pariatur nostrum beatae hic ut?
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eveniet pariatur nostrum beatae hic ut?
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Create Share Section -->
+  <section id="share-head-section" class="bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-5">
+          <h1 class="display-4">Share</h1>
+          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt cupiditate nihil nam dolore
+            consequuntur numquam possimus, esse asperiores atque omnis.</p>
+          <button class="btn btn-outline-light">Find Out More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Share Section -->
+  <section id="share-section" class="bg-light text-muted py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="./img/share-section1.jpg" alt="share section" class="img-fluid rounded-circle pb-3">
+        </div>
+        <div class="col-md-6">
+          <h3>Create Your Passion</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quaerat libero quisquam qui eligendi
+            hic.</p>
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eveniet pariatur nostrum beatae hic ut?
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eveniet pariatur nostrum beatae hic ut?
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer id="main-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-4">
+          <h3>LoopLAB</h3>
+          <p>Copyright &copy; <span id="year"></span></p>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Contact Modal -->
+  <div class="modal fade text-dark" id="contactModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title">Contact Us</h3>
+          <button class="close" data-dismiss="modal"><span>&times;</span></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="Name">Name</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="Email">Email</label>
+              <input type="email" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="Message">Message</label>
+              <textarea class="form-control"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary btn-block">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- JQuery Minified Version NOT the slim version -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -107,6 +292,24 @@
     // Get the current year
     $('#year').text(new Date().getFullYear());
 
+    // Init Scroll Spy
+    $('body').scrollspy({ target: '#main-nav' });
+
+    // Smooth Scrolling
+    $("#main-nav a").on('click', function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+
+        const hash = this.hash;
+
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function () {
+
+          window.location.hash = hash;
+        });
+      }
+    });
 
   </script>
 </body>
