@@ -11,6 +11,9 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Lightbox for Bootstrap -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+    integrity="sha256-HAaDW5o2+LelybUhfuk0Zh2Vdk8Y2W2UeKmbaXhalfA=" crossorigin="anonymous" />
   <!-- Custom Styles -->
   <link rel="stylesheet" href="./css/style.css">
   <title>Boostrap Theme</title>
@@ -101,25 +104,213 @@
     </div>
   </section>
 
+  <!-- Home Section Icon -->
+  <section id="home-section-icon" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-cog fa-3x mb-2"></i>
+          <h2>Turning Gears</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, eligendi?</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-cloud fa-3x mb-2"></i>
+          <h2>Sending Data</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, nobis.</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-cart-plus fa-3x mb-2"></i>
+          <h2>Making Money</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, minima.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <!-- JQuery Minified Version NOT the slim version -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <!-- Popper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <!-- Bootstrap JS -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
+  <!-- Home Heading Section -->
+  <section id="home-heading" class="py-3">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container pt-5">
+            <h1>Are You Ready To Get Started?</h1>
+            <p class="d-none d-md-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis aut
+              necessitatibus sapiente nihil est alias maxime doloremque exercitationem at eum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <script>
-    // Get the current year
-    $('#year').text(new Date().getFullYear());
+  <!-- Info Section -->
+  <section id="info" class="p-5">
+    <div class="conatiner">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <h1>Lorem Ipsum</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque similique, in reprehenderit repudiandae rem
+            officia!</p>
+          <a href="about.html" class="btn btn-outline-danger btn-lg">Learn More</a>
+        </div>
+        <div class="col-md-6">
+          <img src="./img/laptop.png" alt="laptop" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Video Section -->
+  <section id="video-play" class="py-5">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container p-5">
+            <a href="" class="video" data-video="http://youtube.com/embed/HnwsG9a5riA" data-toggle="modal"
+              data-target="#videoModal">
+              <i class="fas fa-play fa-3x"></i>
+            </a>
+            <h1>See What We Do</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- VIDEO MODAL -->
+  <div class="modal fade" id="videoModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+            <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  </script>
+  <!-- Photo Gallery -->
+  <section id="gallery" class="py-5">
+    <div class="container">
+      <h1 class="text-center">Photo Gallery</h1>
+      <p class="text-center">Check out our photos</p>
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox" data-gallery="img-gallery"
+            data-height="560" data-weight="560">
+            <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://source.unsplash.com/random/561x561" data-toggle="lightbox" data-gallery="img-gallery"
+            data-height="561" data-weight="561">
+            <img src="https://source.unsplash.com/random/561x561" alt="" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://source.unsplash.com/random/562x562" data-toggle="lightbox" data-gallery="img-gallery"
+            data-height="562" data-weight="562">
+            <img src="https://source.unsplash.com/random/562x562" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="https://source.unsplash.com/random/563x563" data-toggle="lightbox" data-gallery="img-gallery"
+            data-height="563" data-weight="563">
+            <img src="https://source.unsplash.com/random/563x563" alt="" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://source.unsplash.com/random/564x564" data-toggle="lightbox" data-gallery="img-gallery"
+            data-height="564" data-weight="564">
+            <img src="https://source.unsplash.com/random/564x564" alt="" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://source.unsplash.com/random/565x565" data-toggle="lightbox" data-gallery="img-gallery"
+            data-height="565" data-weight="565">
+            <img src="https://source.unsplash.com/random/565x565" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section id="newsletter" class="bg-dark p-5 text-white text-center">
+    <div class="container ">
+      <div class="row">
+        <div class="col">
+          <h1>Sign Up For Our Newsletter</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non nam vitae accusantium distinctio
+            eum voluptatem nesciunt delectus minima molestiae debitis!</p>
+          <form class="form-inline justify-content-center">
+            <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Name">
+            <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Email">
+            <button class="btn btn-primary mb-2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy; <span id="year"></span> Glozzom</p>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- JQuery Minified Version NOT the slim version -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
+    <!-- Lightbox Script  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+      integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>
+    <script>
+      // Get the current year
+      $('#year').text(new Date().getFullYear());
+
+      // Configure Slider
+      $('.carousel').carousel({
+        interval: '6000',
+        pause: 'hover'
+      });
+
+      // Light box Init
+      $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+      });
+
+      // Video Play
+      $(function () {
+        // Auto play modal video
+        $(".video").click(function () {
+          var theModal = $(this).data("target"),
+            videoSRC = $(this).attr("data-video"),
+            videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+          $(theModal + ' iframe').attr('src', videoSRCauto);
+          $(theModal + ' button.close').click(function () {
+            $(theModal + ' iframe').attr('src', videoSRC);
+          });
+        });
+      });
+
+    </script>
 </body>
 
 </html>
