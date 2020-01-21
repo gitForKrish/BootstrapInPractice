@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bootstrap Grid System</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <style>
+        body{
+            overflow-x: hidden;
+        }
+        .gridShow{
+            background: black;
+            color: white;
+            border: 1px solid white;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Bootstrap Grid System</h1>
+    <p class="lead">Bootstrap one column grid layout for all devices</p>
+    <div class="row">
+        <div class="col gridShow">Col 1</div>
+    </div>
+
+    <p class="lead">Bootstrap two column grid layouts for all devices</p>
+    <div class="row">
+        <div class="col gridShow">Col 1</div>
+        <div class="col gridShow">Col 2</div>
+    </div>
+    <p class="lead">Bootstrap two column grid layouts for tablets and desktops</p>
+    <div class="row">
+        <div class="col-md gridShow">Col 1</div>
+        <div class="col-md gridShow">Col 2</div>
+    </div>
+    <p class="lead">Bootstrap three column grid layouts for all devices</p>
+    <div class="row">
+        <div class="col gridShow">Col 1</div>
+        <div class="col gridShow">Col 2</div>
+        <div class="col gridShow">Col 3</div>
+    </div>
+    <p class="lead">Bootstrap three column grid for layouts tablets and desktops</p>
+    <div class="row">
+        <div class="col-md gridShow">Col 1</div>
+        <div class="col-md gridShow">Col 2</div>
+        <div class="col-md gridShow">Col 3</div>
+    </div>
+    <p class="lead">Bootstrap four column convertible grid layout with multiple views - 4 columns on desktops, 2 columns on tablets, one column on mobiles</p>
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3 gridShow">Col 1</div>
+        <div class="col-sm-12 col-md-6 col-lg-3 gridShow">Col 2</div>
+        <div class="col-sm-12 col-md-6 col-lg-3 gridShow">Col 3</div>
+        <div class="col-sm-12 col-md-6 col-lg-3 gridShow">Col 4</div> 
+    </div>
+    <p class="lead">Bootstrap nested grid columns layout</p>
+    <div class="row">
+        <div class="col-lg-9 gridShow">
+            <div class="row">
+                <div class="col-4 gridShow">Col-S-1</div>
+                <div class="col-4 gridShow">Col-S-2</div>
+                <div class="col-4 gridShow">Col-S-3</div>
+            </div>
+        </div>
+        <div class="col-lg-3 gridShow">Col 4</div>
+    </div>
+    
+    <p class="lead">Bootstrap multi column grid layout for all devices</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gridShow">Col 1</div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gridShow">Col 2</div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gridShow">Col 3</div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gridShow">Col 4</div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gridShow">Col 5</div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gridShow">Col 6</div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gridShow">Col 7</div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gridShow">Col 8</div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gridShow">Col 9</div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gridShow">Col 10</div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gridShow">Col 11</div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 gridShow">Col 12</div>
+        </div>
+    </div>
+    <p class="lead">Bootstrap fixed layout</p> <!-- No container Div -->
+    <div class="row">
+        <div class="col-4 gridShow">Col 1</div>
+        <div class="col-4 gridShow">Col 2</div>
+        <div class="col-4 gridShow">Col 3</div>
+    </div>
+
+    <p class="lead">Bootstrap fluid layout</p> <!-- Div with container-fluid -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 gridShow">Col 1</div>
+            <div class="col-4 gridShow">Col 2</div>
+            <div class="col-4 gridShow">Col 3</div>
+        </div>
+    </div>
+    <p class="lead">Bootstrap responsive layout</p> <!-- Div with only container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-4 gridShow">Col 1</div>
+            <div class="col-4 gridShow">Col 2</div>
+            <div class="col-4 gridShow">Col 3</div>
+        </div>
+    </div>
+
+
+    <!-- JQuery Minified Version NOT the slim version -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Popper JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
