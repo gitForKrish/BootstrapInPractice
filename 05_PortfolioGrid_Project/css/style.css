@@ -1,0 +1,12 @@
+#main-header img{
+  width: 100%;
+  height: 100;
+}
+.fab, .fas{
+  color:white;
+}
+
+.profile-info{
+  color: white;
+  background: #000;
+}
