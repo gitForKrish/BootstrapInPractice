@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.css"
+    integrity="sha256-PtBWX+v2TI0iuYI3rZrQft5kfd3ZkdPd8iVMZoE1rxE=" crossorigin="anonymous" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Boostrap 4 Flexbox</title>
+</head>
+
+<body style="background-color: azure;">
+  <h2>Block & Inline D-Flex Container</h2>
+  <h4>d-flex</h4>
+  <div class="d-flex bg-secondary m-2 p-2">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+  </div>
+  <h4>d-inline-flex</h4>
+  <div class="d-inline-flex  bg-secondary m-2 p-2">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+  </div>
+
+  <h2> Flex Row and Column</h2>
+  <h4>flex-row (default)</h4>
+  <div class="d-flex flex-row bg-secondary m-2 p-2">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+  </div>
+  <h4>flex-row-reverse</h4>
+  <div class="d-flex flex-row-reverse bg-secondary m-2 p-2">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+  </div>
+  <h4>flex-column</h4>
+  <div class="d-flex flex-column bg-secondary m-2 p-2">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+  </div>
+  <h4>flex-column-reverse</h4>
+  <div class="d-flex flex-column-reverse bg-secondary m-2 p-2">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+  </div>
+  <h2>Change the alignment of flex items</h2>
+  <h4>justify-content-start (default)</h4>
+  <div class="d-flex justify-content-start bg-secondary m-2 p-2">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+  </div>
+  <h4>justify-content-center</h4>
+  <div class="d-flex justify-content-center bg-secondary m-2 p-2">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+  </div>
+  <h4>justify-content-end</h4>
+  <div class="d-flex justify-content-end bg-secondary m-2 p-2">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+  </div>
+  <h4>justify-content-between</h4>
+  <div class="d-flex justify-content-between bg-secondary m-2 p-2">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+  </div>
+  <h4>justify-content-around</h4>
+  <div class="d-flex justify-content-around bg-secondary m-2 p-2">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+  </div>
+
+  <h2>Flex-fill</h2>
+  <div class="d-flex bg-secondary m-2 p-2">
+    <div class="flex-fill bg-primary p-2">Flex Item 1</div>
+    <div class="flex-fill bg-success p-2">Flex Item 2</div>
+    <div class="flex-fill bg-warning p-2">Flex Item 3</div>
+    <div class="flex-fill bg-light p-2">Flex Item 4</div>
+  </div>
+
+  <h2>Order: change visual order</h2>
+  <div class="d-flex bg-secondary m-2 p-2">
+    <div class="order-2 flex-fill bg-primary p-2">Flex Item 1</div>
+    <div class="order-1 flex-fill bg-success p-2">Flex Item 2</div>
+    <div class="order-4 flex-fill bg-warning p-2">Flex Item 3</div>
+    <div class="order-3 flex-fill bg-light p-2">Flex Item 4</div>
+  </div>
+
+  <h2>Auto Margin</h2>
+  <h4>mr-auto</h4>
+  <div class="d-flex bg-secondary m-2 p-2">
+    <div class="mr-auto bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+  </div>
+
+  <h4>ml-auto</h4>
+  <div class="d-flex bg-secondary m-2 p-2">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="ml-auto bg-light p-2">Flex Item 4</div>
+  </div>
+  <h2>Flex Wrap</h2>
+  <h4>flex-wrap</h4>
+  <div class="d-flex flex-wrap bg-secondary m-2 p-2" style="height: 150px;">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+    <div class="bg-primary p-2">Flex Item 5</div>
+    <div class="bg-success p-2">Flex Item 6</div>
+    <div class="bg-warning p-2">Flex Item 7</div>
+    <div class="bg-light p-2">Flex Item 8</div>
+    <div class="bg-primary p-2">Flex Item 9</div>
+    <div class="bg-success p-2">Flex Item 10</div>
+    <div class="bg-warning p-2">Flex Item 11</div>
+    <div class="bg-light p-2">Flex Item 12</div>
+    <div class="bg-primary p-2">Flex Item 13</div>
+    <div class="bg-success p-2">Flex Item 14</div>
+    <div class="bg-warning p-2">Flex Item 15</div>
+    <div class="bg-light p-2">Flex Item 16</div>
+  </div>
+  <h4>flex-wrap-reverse</h4>
+  <div class="d-flex flex-wrap-reverse bg-secondary m-2 p-2" style="height: 150px;">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+    <div class="bg-primary p-2">Flex Item 5</div>
+    <div class="bg-success p-2">Flex Item 6</div>
+    <div class="bg-warning p-2">Flex Item 7</div>
+    <div class="bg-light p-2">Flex Item 8</div>
+    <div class="bg-primary p-2">Flex Item 9</div>
+    <div class="bg-success p-2">Flex Item 10</div>
+    <div class="bg-warning p-2">Flex Item 11</div>
+    <div class="bg-light p-2">Flex Item 12</div>
+    <div class="bg-primary p-2">Flex Item 13</div>
+    <div class="bg-success p-2">Flex Item 14</div>
+    <div class="bg-warning p-2">Flex Item 15</div>
+    <div class="bg-light p-2">Flex Item 16</div>
+  </div>
+  <h4>flex-nowrap</h4>
+  <div class="d-flex flex-nowrap-reverse bg-secondary m-2 p-2" style="height: 150px;">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+    <div class="bg-primary p-2">Flex Item 5</div>
+    <div class="bg-success p-2">Flex Item 6</div>
+    <div class="bg-warning p-2">Flex Item 7</div>
+    <div class="bg-light p-2">Flex Item 8</div>
+    <div class="bg-primary p-2">Flex Item 9</div>
+    <div class="bg-success p-2">Flex Item 10</div>
+    <div class="bg-warning p-2">Flex Item 11</div>
+    <div class="bg-light p-2">Flex Item 12</div>
+    <div class="bg-primary p-2">Flex Item 13</div>
+    <div class="bg-success p-2">Flex Item 14</div>
+    <div class="bg-warning p-2">Flex Item 15</div>
+    <div class="bg-light p-2">Flex Item 16</div>
+  </div>
+
+  <h2>Align Content - For Multiple rows</h2>
+  <h4>align-content-start</h4>
+  <div class="d-flex flex-wrap align-content-start bg-secondary m-2 p-2" style="height: 150px;">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+    <div class="bg-primary p-2">Flex Item 5</div>
+    <div class="bg-success p-2">Flex Item 6</div>
+    <div class="bg-warning p-2">Flex Item 7</div>
+    <div class="bg-light p-2">Flex Item 8</div>
+    <div class="bg-primary p-2">Flex Item 9</div>
+    <div class="bg-success p-2">Flex Item 10</div>
+    <div class="bg-warning p-2">Flex Item 11</div>
+    <div class="bg-light p-2">Flex Item 12</div>
+  </div>
+  <h4>align-content-center</h4>
+  <div class="d-flex flex-wrap align-content-center bg-secondary m-2 p-2" style="height: 150px;">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+    <div class="bg-primary p-2">Flex Item 5</div>
+    <div class="bg-success p-2">Flex Item 6</div>
+    <div class="bg-warning p-2">Flex Item 7</div>
+    <div class="bg-light p-2">Flex Item 8</div>
+    <div class="bg-primary p-2">Flex Item 9</div>
+    <div class="bg-success p-2">Flex Item 10</div>
+    <div class="bg-warning p-2">Flex Item 11</div>
+    <div class="bg-light p-2">Flex Item 12</div>
+  </div>
+  <h4>align-content-end</h4>
+  <div class="d-flex flex-wrap align-content-end bg-secondary m-2 p-2" style="height: 150px;">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+    <div class="bg-primary p-2">Flex Item 5</div>
+    <div class="bg-success p-2">Flex Item 6</div>
+    <div class="bg-warning p-2">Flex Item 7</div>
+    <div class="bg-light p-2">Flex Item 8</div>
+    <div class="bg-primary p-2">Flex Item 9</div>
+    <div class="bg-success p-2">Flex Item 10</div>
+    <div class="bg-warning p-2">Flex Item 11</div>
+    <div class="bg-light p-2">Flex Item 12</div>
+  </div>
+  <h4>align-content-between</h4>
+  <div class="d-flex flex-wrap align-content-between bg-secondary m-2 p-2" style="height: 150px;">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+    <div class="bg-primary p-2">Flex Item 5</div>
+    <div class="bg-success p-2">Flex Item 6</div>
+    <div class="bg-warning p-2">Flex Item 7</div>
+    <div class="bg-light p-2">Flex Item 8</div>
+    <div class="bg-primary p-2">Flex Item 9</div>
+    <div class="bg-success p-2">Flex Item 10</div>
+    <div class="bg-warning p-2">Flex Item 11</div>
+    <div class="bg-light p-2">Flex Item 12</div>
+  </div>
+  <h4>align-content-around</h4>
+  <div class="d-flex flex-wrap align-content-around bg-secondary m-2 p-2" style="height: 150px;">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+    <div class="bg-primary p-2">Flex Item 5</div>
+    <div class="bg-success p-2">Flex Item 6</div>
+    <div class="bg-warning p-2">Flex Item 7</div>
+    <div class="bg-light p-2">Flex Item 8</div>
+    <div class="bg-primary p-2">Flex Item 9</div>
+    <div class="bg-success p-2">Flex Item 10</div>
+    <div class="bg-warning p-2">Flex Item 11</div>
+    <div class="bg-light p-2">Flex Item 12</div>
+  </div>
+  <h4>align-content-stretch</h4>
+  <div class="d-flex flex-wrap align-content-stretch bg-secondary m-2 p-2" style="height: 150px;">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+    <div class="bg-primary p-2">Flex Item 5</div>
+    <div class="bg-success p-2">Flex Item 6</div>
+    <div class="bg-warning p-2">Flex Item 7</div>
+    <div class="bg-light p-2">Flex Item 8</div>
+    <div class="bg-primary p-2">Flex Item 9</div>
+    <div class="bg-success p-2">Flex Item 10</div>
+    <div class="bg-warning p-2">Flex Item 11</div>
+    <div class="bg-light p-2">Flex Item 12</div>
+  </div>
+  <h2>Align Items - For Single row</h2>
+  <h4>align-items-start</h4>
+  <div class="d-flex flex-wrap align-items-start bg-secondary m-2 p-2" style="height: 150px;">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+  </div>
+  <h4>align-items-center</h4>
+  <div class="d-flex flex-wrap align-items-center bg-secondary m-2 p-2" style="height: 150px;">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+  </div>
+  <h4>align-items-end</h4>
+  <div class="d-flex flex-wrap align-items-end bg-secondary m-2 p-2" style="height: 150px;">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+  </div>
+  <h4>align-items-baseline</h4>
+  <div class="d-flex flex-wrap align-items-baseline bg-secondary m-2 p-2" style="height: 150px;">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+  </div>
+  <h4>align-items-stretch</h4>
+  <div class="d-flex flex-wrap align-items-stretch bg-secondary m-2 p-2" style="height: 150px;">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+  </div>
+
+  <h2>Align Self</h2>
+  <h4>align-self-start</h4>
+  <div class="d-flex bg-secondary m-2 p-2" style="height: 150px;">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="align-self-start bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+  </div>
+  <h4>align-self-center</h4>
+  <div class="d-flex bg-secondary m-2 p-2" style="height: 150px;">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="align-self-center bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+  </div>
+  <h4>align-self-end</h4>
+  <div class="d-flex bg-secondary m-2 p-2" style="height: 150px;">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="align-self-end bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+  </div>
+  <h4>align-self-baseline</h4>
+  <div class="d-flex bg-secondary m-2 p-2" style="height: 150px;">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="align-self-baseline bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+  </div>
+  <h4>align-self-stretch (Default)</h4>
+  <div class="d-flex bg-secondary m-2 p-2" style="height: 150px;">
+    <div class="bg-primary p-2">Flex Item 1</div>
+    <div class="align-self-stretch bg-success p-2">Flex Item 2</div>
+    <div class="bg-warning p-2">Flex Item 3</div>
+    <div class="bg-light p-2">Flex Item 4</div>
+  </div>
+
+
+  <div style="height: 500px;"></div>
+
+  <!-- JQuery Minified Version NOT the slim version -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!-- Popper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+  <script>
+
+  </script>
+</body>
+
+</html>
