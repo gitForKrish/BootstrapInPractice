@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.css"
+    integrity="sha256-PtBWX+v2TI0iuYI3rZrQft5kfd3ZkdPd8iVMZoE1rxE=" crossorigin="anonymous" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Boostrap Revision</title>
+</head>
+
+<body>
+  <!-- Navigation Bar with dropdown link and form control -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="#" class="navbar-brand">Logo</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="myNavbar" class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          <li class="nav-item" title="Service not available yet"><a href="#" class="nav-link disabled">Services</a></li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contact</a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">Via Email</a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">Via Phone</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline ml-auto d-none d-md-block">
+          <input type="text" class="form-control" placeholder="Search">
+          <button class="btn btn-success ml-2">Search</button>
+        </form>
+      </div>
+    </div>
+
+  </nav>
+
+  <!-- List Groups -->
+  <div class="container m-2">
+    <ul class="list-group">
+      <a href="#" class="list-group-item list-group-item-action active">List Action 1</a>
+      <a href="#" class="list-group-item list-group-item-action disabled">List Action 2</a>
+      <a href="#" class="list-group-item list-group-item-action list-group-item-danger">List Action 3</a>
+      <a href="#" class="list-group-item list-group-item-action">List Action 4</a>
+    </ul>
+  </div>
+  <!-- Revise: list-group-flush, list-group-horizontal  -->
+
+  <!-- List group with Badges -->
+  <ul class="list-group ">
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      Inbox
+      <span class="badge badge-primary badge-pill">12</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      Ads
+      <span class="badge badge-warning badge-pill">55</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      Junk
+      <span class="badge badge-danger badge-pill">99</span>
+    </li>
+  </ul>
+
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark mt-5">
+    <div class="container">
+      <div class="navbar-brand">Logo</div>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#myNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="myNav" class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          <li class="nav-item" title="Services not available yet"><a href="#" class="nav-link disabled">Services</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contact</a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">Via Phone</a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">Via Email</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline ml-auto d-none d-md-block">
+          <input type="text" class="form-control" placeholder="Search">
+          <button class="btn btn-success ml-2">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <ul class="list-group">
+      <a href="#" class="list-group-item list-group-item-action active">List Action 1</a>
+      <a href="#" class="list-group-item list-group-item-action disabled">List Action 2</a>
+      <a href="#" class="list-group-item list-group-item-action list-group-item-danger">List Action 3</a>
+      <a href="#" class="list-group-item list-group-item-action">List Action 4</a>
+    </ul>
+
+    <ul class="list-group list-group-flush mt-4">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Inbox
+        <span class="badge badge-primary badge-pill">12</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Ads
+        <span class="badge badge-warning badge-pill">55</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Junk
+        <span class="badge badge-danger badge-pill">99</span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Pagination -->
+  <div class="container mt-5">
+    <ul class="pagination">
+      <li class="page-item disabled">
+        <a href="#" class="page-link">
+          <span>&laquo;</span>
+          <span class="sr-only">Previous</span> <!-- For Screen Reader Devices -->
+        </a>
+      </li>
+      <li class="page-item active"><a href="#" class="page-link ">1</a></li>
+      <li class="page-item"><a href="#" class="page-link ">2</a></li>
+      <li class="page-item"><a href="#" class="page-link ">3</a></li>
+      <li class="page-item"><a href="#" class="page-link ">4</a></li>
+      <li class="page-item">
+        <a href="#" class="page-link">
+          <span>&raquo;</span>
+          <span class="sr-only">Next</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Carousel -->
+  <div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Showcase -->
+      <ul class="carousel-inner">
+        <li class="carousel-item active"><img src="https://via.placeholder.com/600.png?text=image1" class="img-fluid">
+        </li>
+        <li class="carousel-item"><img src="https://via.placeholder.com/600.png?text=image2" class="img-fluid"></li>
+        <li class="carousel-item"><img src="https://via.placeholder.com/600.png?text=image3" class="img-fluid"></li>
+      </ul>
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+        <li data-slide-to="1" data-target="#myCarousel"></li>
+        <li data-slide-to="2" data-target="#myCarousel"></li>
+      </ul>
+
+      <!-- Controls -->
+      <a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#myCarousel" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Animated dismissible alerts -->
+  <div class="container">
+    <div id="myAlert" class="alert alert-success alert-dismissible fade show">
+      <button class="close" data-dismiss="alert">&times;</button>
+      <h3 class="alert-heading">Alert Heading</h3>
+      <strong>Difficult</strong> roads lead to beautiful destinations.
+    </div>
+  </div>
+
+
+  <div style="height: 500px;"></div>
+
+  <!-- JQuery Minified Version NOT the slim version -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!-- Popper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+  <script>
+
+  </script>
+</body>
+
+</html>
